@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A5 Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Header Section-->
+    <header>
+        <h1>Personalized Digital Assistant</h1>
+    </header>
+
+    <!--Main Section-->
+    <main>
+        <!--Task Manager Section-->
+        <section id="task-manager">
+            <h2>Task Manager</h2>
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Enter a new task..." required>
+                <button type="submit">Add Task</button>
+            </form>
+            <ul id="task-list">
+                <!--Tasks will be dynamically added-->
+            </ul>
+        </section>
+
+        <!--Notes Section-->
+        <section id="notes-section">
+            <h2>Notes</h2>
+            <form id="note-form">
+                <input type="text" id="note-title" placeholder="Note Title" required>
+                <textarea id="note-content" placeholder="Write your note here..." required></textarea>
+                <button type="submit">Save Notes</button>
+            </form>
+            <div id="notes-list">
+                <!--Notes will be dynamically displayed-->
+            </div>
+        </section>
+
+        <!--Weather Section-->
+        <section id="weather-section">
+            <h2>Weather</h2>
+            <div id="weather-info">
+                <!--Weather will be displayed here-->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2024 Personalized Digital Assistant</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
